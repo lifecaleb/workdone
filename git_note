@@ -1,0 +1,56 @@
+GIT NOTE
+Git is a distributed version control system that helps IT teams 
+collaborate on a project. It is also a version contol system that keeps
+track and update code. It is also a source code managment tool that 
+helps keep track of different version of application source code.
+
+Project Repository: This is the repository or storage system that holds
+an entire project application code. It also holds the Master/Main Branch
+and other other branches that supports code update.
+Note: By default, a repository comes with a Master/Main Branch 
+
+Branching Systems:
+The branching system is setup to keep track of changes and modifications 
+NUMBER ONE BRANCH IS THE MAIN OR MASTER BRANCH, every oother branches
+get created as needed for code update. 
+
+git clone is used to clone your curent repository 
+git init is used to initialized an empty project repository 
+git add is used to move your update form the working area to staging area
+git status is used to check the status of your update or files added
+git commit is used to take your changes from the staging area into your 
+            your local repository. 
+git push is used to push your changes into the remote repository 
+git pull is used to update your current branch 
+git branch -l is used to list branches and show current branch 
+git checkout is used to switch and create new branches
+
+Forking:
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. 
+
+README file: This is where you can write a long description for your project
+                      JIRA TICKETTING PLATFORM
+TASK 1                      
+TICKET TITLE: Create Terraform template for 2 ec2 instaces
+TICKET ID: IIP-1234
+TICKET DESCRIPTION: use amzon linux ami 
+                     create resource in us-east-1
+Assigned to: Lolu
+Reporter: Diya Moliki        
+
+TASK 2                     
+TICKET TITLE: update README file 
+TICKET ID: IIP-1357
+TICKET DESCRIPTION: Things to do:
+                    1. Design an architectural diagram 
+                    2. Create a proof of concept 
+                    3. Do a Demo
+Assigned to: Lolu
+Reporter: Diya Moliki    
+
+
+Git Story 
+When starting a new project for a client ( put client name here) I created an organization on the Github.
+I created a project (Fitness-App Project) in the organization  and also created a team with the right access and permission.
+Having done that, I created the project repository which is where all our codes will be stored. As our Ticketing Platform (JIRA) is linked with Git, I makesure that each story has a proper naming convention with the ticket number attached to the branch name.
+Also, I pull all changes into my local enviroment every morning and if there are needs to fork or clone a repository I do so. After finalizing my ticket, I follow a proper branching system by push my work branch to GitHub then create and assign a PULL REQUEST to a team member to review and approve the merge request of my work into the main branch. Finally if I need to update project documentation I do that on confluence. 
